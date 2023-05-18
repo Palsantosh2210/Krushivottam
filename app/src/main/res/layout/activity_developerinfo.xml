@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".developerinfo">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Developer Info"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="26sp" />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/krush" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:textAlignment="center"
+        android:text="Krushivottam is industrial as well as farm supportive app which help the farmer as trader and customer to help each other by trading among themselves with the help of krushivottam.It is recognised by Netrait Foundation from MSME and Maharashtra state and innovation department for their unique value proposition. "
+        android:paddingBottom="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:textSize="19sp"
+      android:textAlignment="center"
+      android:text="Amarjit Vishwakarma"
+        android:paddingBottom="15dp"
+      android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+
+        android:text="amarjeetvishwakarma0352@gmail.com"
+        android:paddingBottom="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+
+        android:text="885049978"
+        android:paddingBottom="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+android:textAlignment="center"
+        android:text="Santosh Pal"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+
+        android:text="palsantosh2210@gmail.com"
+        android:paddingBottom="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+
+        android:text="7304284215"
+        android:paddingBottom="25dp"
+        android:textStyle="bold"/>
+
+<!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:textAlignment="center"
+        android:text="Aryan Raut"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+
+        android:text="aryanmanraut002@gmail.com"
+        android:paddingBottom="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+
+        android:text="9637342340"
+        android:paddingBottom="25dp"
+        android:textStyle="bold"/> -->
+
+
+
+  </LinearLayout>
+
+</ScrollView>

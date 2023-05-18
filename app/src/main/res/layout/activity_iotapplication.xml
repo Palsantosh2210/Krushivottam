@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iotapplication">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Smart IOT Application"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/krush" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To use a IOT Application"
+            android:paddingBottom="25dp"
+            android:gravity="center"
+            android:id="@+id/Iotapp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginBottom="30dp"
+            app:srcCompat="@drawable/services" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hang tightly IOT Application services is launching soon......"
+            android:paddingBottom="25dp"
+            android:gravity="center"
+            android:id="@+id/Iotapp123"
+            android:textStyle="italic"
+            android:textSize="20sp"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

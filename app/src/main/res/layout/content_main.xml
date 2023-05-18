@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_marginBottom="10dp"
+    >
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="2dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/mango1"
+                    android:layout_width="189dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+
+                        android:fitsSystemWindows="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="157dp"
+                            android:layout_height="181dp"
+                            android:src="@drawable/mango" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Mango"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rs 100 per Dozen"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/apple1"
+                    android:layout_width="189dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+
+                        android:fitsSystemWindows="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="157dp"
+                            android:layout_height="181dp"
+                            android:src="@drawable/apple" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Apple"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rs 150 per KG"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/rice1"
+                    android:layout_width="189dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+
+                        android:fitsSystemWindows="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="157dp"
+                            android:layout_height="181dp"
+                            android:src="@drawable/rice" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Basmati Rice"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rs 100 per KG"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ladies1"
+                    android:layout_width="189dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+
+                        android:fitsSystemWindows="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="157dp"
+                            android:layout_height="181dp"
+                            android:src="@drawable/ladiesfinger" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Ladies Finger"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rs 50 per KG"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/mustard1"
+                    android:layout_width="189dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+
+                        android:fitsSystemWindows="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="157dp"
+                            android:layout_height="181dp"
+                            android:src="@drawable/mustard" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Mustard"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rs 100 per KG"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/peas1"
+                    android:layout_width="189dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+
+                        android:fitsSystemWindows="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="157dp"
+                            android:layout_height="181dp"
+                            android:src="@drawable/peas" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Peas"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rs 70 per KG"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sugarcane1"
+                    android:layout_width="189dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+
+                        android:fitsSystemWindows="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="157dp"
+                            android:layout_height="181dp"
+                            android:src="@drawable/sugarcane" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Sugarcane"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rs 200 per KG"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/wheat1"
+                    android:layout_width="189dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+
+                        android:fitsSystemWindows="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="157dp"
+                            android:layout_height="181dp"
+                            android:src="@drawable/wheat" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Wheat"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rs 30 per KG"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/udrdal1"
+                    android:layout_width="189dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+
+                        android:fitsSystemWindows="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="157dp"
+                            android:layout_height="181dp"
+                            android:src="@drawable/urdidal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Dal"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rs 120 per KG"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/watermelon1"
+                    android:layout_width="189dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="166dp"
+                        android:layout_height="250dp"
+                        android:layout_margin="10dp"
+
+                        android:fitsSystemWindows="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="157dp"
+                            android:layout_height="181dp"
+                            android:src="@drawable/watermelon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Watermelon"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Rs 70 per KG"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

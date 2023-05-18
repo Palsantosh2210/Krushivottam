@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="customer">Customer</string>
+    <string name="trader">Trader</string>
+    <string name="OpenDrawer">Open Drawer Navigation</string>
+    <string name="CloseDrawer">Close Drawer Navigation</string>
+</resources>

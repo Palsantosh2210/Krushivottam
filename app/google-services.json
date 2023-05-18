@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "187211753803",
+    "project_id": "krus-e32af",
+    "storage_bucket": "krus-e32af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187211753803:android:2670cd242b1ae85a2920ce",
+        "android_client_info": {
+          "package_name": "com.example.krus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187211753803-1kddfi733khl8alcmc4qkboopnso59dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_ArJBO6SB_M0zdV12uOVMXcCOYJaHHpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187211753803-1kddfi733khl8alcmc4qkboopnso59dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
